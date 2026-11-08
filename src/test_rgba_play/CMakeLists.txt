@@ -18,7 +18,7 @@ include_directories(BEFORE "${RGBA_PLAY_INCLUDE_DIR}")
 link_directories(BEFORE "${RGBA_PLAY_LIB_DIR}")
 set(CMAKE_BUILD_RPATH "${RGBA_PLAY_LIB_DIR}")
 
-add_executable(rgba_play_pv rgba_play_pv.cpp)
+add_executable(rgba_play_pv rgba_play_pv_test.cpp)
 
 target_link_libraries(rgba_play_pv PRIVATE
   SDL2
